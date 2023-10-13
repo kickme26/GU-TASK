@@ -21,7 +21,7 @@ const toTitleCaps = (strarray) =>{
    return title;
 }
 
-const toTitleArrays = ["Hell weod", "Time to kiv", "da kif da fas"];
+const toTitleArrays = ["time pass", "nice day", "Dil kogayh"];
 const titleCaps = toTitleCaps(toTitleArrays);
 for (let i=0;i<titleCaps.length;i++){
     console.log(titleCaps[i]);
