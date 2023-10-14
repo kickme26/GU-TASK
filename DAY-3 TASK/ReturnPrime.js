@@ -2,26 +2,36 @@
     Return all the prime numbers in an array
 */
 
-const isPrimeNumber = (nArray) => {
-    let primeArray = [];
-    for (const element of nArray) {
-        if (element <= 1) {
-            continue;
-        }
-         if (element <= 3){
-            primeArray.push(element);
-            continue;
-        }
-
-        if (element % 2 === 0 || element % 3 === 0) {
-           continue
+//Annonymous function 
+const isPrime = function(arrnumber) {
+    if (arrnumber <= 1) { 
+        return false;
+    }
+    if (arrnumber <= 3) {
+        return true;
+    }
+    if (arrnumber % 2 === 0 || arrnumber % 3 === 0) {
+         return false;
+    }
+    for (let i=5; i*i<=arrnumber; i+=2) {
+        if (arrnumber % i === 0) {
+            return false;
         }
     }
-    return primeArray;
-}
+    return true;
+};
 
-const nprimes = [4, 5, 7, 8, 9, 22, 11, 23, 31];
-const a = isPrimeNumber(nprimes);
-for (let i=0; i<a.length;i++){
-    console.log(a[i]); // Output: [5, 7, 11, 23, 31]
-}
+//Arrow functions
+const printPrimeNumbers = (arr) => {
+    const primeNumbers = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (isPrime(arr[i])) {
+            primeNumbers.push(arr[i]);
+        }
+    }
+    return primeNumbers;
+};
+
+const numbers = [1,2,3,4,5,6,7,8,9,10,33,31,18,17];
+const primeNumbers = printPrimeNumbers(numbers);
+console.log(primeNumbers);
