@@ -4,16 +4,19 @@
 
 const checkPalindrome = (arrInput) => {
     let result = [];
-    for (let i = 0; i < arrInput.length; i++) {
-        const lowercaseWord = arrInput[i].toLowerCase();
+    for (const element of arrInput) {
+        let lowercaseWord = element.toLowerCase();
         if (lowercaseWord === lowercaseWord.split('').reverse().join('')) {
-            result.push(arrInput[i]);
+            result.push(element);
         }
     }
     return result;
 }
 
 const result = checkPalindrome(["mam", "potato", "car", "Aba"]);
-for (let i = 0; i < result.length; i++) {
-    console.log(result[i]);
-}
+for (const element of result) {
+    console.log(element);
+    }
+
+
+

@@ -1,3 +1,7 @@
+/*
+    Prints the Odd Number
+*/
+
 (function () {
     const oddNumbers = (n) => {
         let OddArray = [];
@@ -10,7 +14,7 @@
     }
 
     const PrintoddNumbers = oddNumbers(100);
-    for (let j = 0; j < PrintoddNumbers.length; j++) {
-        console.log(PrintoddNumbers[j]);
+    for (const element of PrintoddNumbers) {
+        console.log(element);
     }
 })();

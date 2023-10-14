@@ -4,16 +4,16 @@
 
 const isPrimeNumber = (nArray) => {
     let primeArray = [];
-    for (let i = 0; i < nArray.length; i++) {
-        if (nArray[i] <= 1) {
+    for (const element of nArray) {
+        if (element <= 1) {
             continue;
         }
-         if (nArray[i] <= 3){
-            primeArray.push(nArray[i]);
+         if (element <= 3){
+            primeArray.push(element);
             continue;
         }
 
-        if (nArray[i] % 2 === 0 || nArray[i] % 3 === 0) {
+        if (element % 2 === 0 || element % 3 === 0) {
            continue
         }
     }

@@ -1,3 +1,8 @@
+
+/*
+    Pallindrome
+*/
+
 (function (arrInput) {
     let result = [];
     for (let i = 0; i < arrInput.length; i++) {
