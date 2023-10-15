@@ -1,5 +1,5 @@
 /*
-    Remove Duplicate in annonymous function
+    Remove Duplicate in annonymous fun
 */
 
 const removeDuplicates = function(arr) {
