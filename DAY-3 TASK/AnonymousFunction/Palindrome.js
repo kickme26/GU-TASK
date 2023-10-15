@@ -1,9 +1,8 @@
-
 /*
-    Pallindrome
+    Return all the palindromes in an array
 */
 
-(function (arrInput) {
+const palindromeFunc = function (arrInput) {
     let result = [];
     for (let i = 0; i < arrInput.length; i++) {
         const lowercaseWord = arrInput[i].toLowerCase();
@@ -14,4 +13,6 @@
     for (let i = 0; i < result.length; i++) {
         console.log(result[i]);
     }
-})(["mam", "potato", "car", "Aba"]);
+}
+
+const result= palindromeFunc(["mam", "potato", "car", "Aba"]);

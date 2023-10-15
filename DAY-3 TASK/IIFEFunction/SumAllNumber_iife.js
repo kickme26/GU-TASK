@@ -1,3 +1,7 @@
+/*
+    Sum of all numbers in an array
+*/
+
 (function (arrInput) {
     let sum = 0;
     for (const element of arrInput) {

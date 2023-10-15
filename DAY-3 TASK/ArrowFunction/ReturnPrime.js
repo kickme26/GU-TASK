@@ -2,8 +2,7 @@
     Return all the prime numbers in an array
 */
 
-//Annonymous function 
-const isPrime = function(arrnumber) {
+const isPrime = (arrnumber) => {
     if (arrnumber <= 1) { 
         return false;
     }
@@ -21,12 +20,11 @@ const isPrime = function(arrnumber) {
     return true;
 };
 
-//Arrow functions
 const printPrimeNumbers = (arr) => {
     const primeNumbers = [];
-    for (let i = 0; i < arr.length; i++) {
-        if (isPrime(arr[i])) {
-            primeNumbers.push(arr[i]);
+    for (const element of arr) {
+        if (isPrime(element)) {
+            primeNumbers.push(element);
         }
     }
     return primeNumbers;

@@ -1,4 +1,8 @@
-(function (strarray) {
+/*
+    Convert all the strings to title caps in a string array
+*/
+
+const toTitleCaps = function (strarray) {
     let title = [];
     for (let i = 0; i < strarray.length; i++) {
         let splittedString = strarray[i].split(" ");
@@ -11,4 +15,5 @@
     for (let i = 0; i < title.length; i++) {
         console.log(title[i]);
     }
-})(["Hellow everyone", "Time to rock", "day is not enough"]);
+}
+const result = toTitleCaps(["Hellow everyone", "Time to rock", "day is not enough"]);

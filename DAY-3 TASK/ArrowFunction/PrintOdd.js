@@ -1,7 +1,5 @@
-
 /*
-    Arrow Function Task
-        Print odd numbers in an array
+    Print odd numbers in an array
 */
 
 const oddNumbers = (n) =>{
