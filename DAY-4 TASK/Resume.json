@@ -1,36 +1,42 @@
 {
     "summary": "Experienced software engineer, Now learning JavaScript",
     "personal_info": {
-      "name": "Guna D",
-      "email": "guna26.9@email.com",
-      "phone": "956625876",
-      "address": "Porur, Chennai"
+        "name": "Guna D",
+        "email": "guna26.9@email.com",
+        "phone": "956625876",
+        "address": "Porur, Chennai"
     },
-    "education": 
-      {
-        "degree": "B.Tech Computer Science",
-        "school": "SRM University",
-        "graduation_year": "2019"
-      },
-    "work_experience":
-      {
+    "education": [
+        {
+            "degree": "B.Tech Computer Science",
+            "school": "SRM University",
+            "graduation_year": "2019",
+            "marks": "90%"
+        },
+        {
+            "degree": "12 th",
+            "school": "RAJIV School",
+            "graduation_year": "2015",
+            "marks": "75%"
+        }
+    ],
+    "work_experience": {
         "position": "Software Developer",
         "company": "XYZ Co.",
         "start_date": "01-01-2020",
         "end_date": "Present"
-      },
+    },
     "skills": [
-      "JavaScript",
-      "HTML/CSS",
-      "C++",
-      "Problem Solving"
+        "JavaScript",
+        "HTML/CSS",
+        "C++",
+        "Problem Solving"
     ],
     "certifications": [
-      {
-        "title": "Certified Full stack Developer",
-        "issuer": "Guvi",
-        "date": "15-10-2023"
-      }
+        {
+            "title": "Certified Full stack Developer",
+            "issuer": "Guvi",
+            "date": "15-10-2023"
+        }
     ]
-  }
-  
+}
