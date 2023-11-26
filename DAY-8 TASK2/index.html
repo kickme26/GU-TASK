@@ -3,128 +3,26 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Guvi Form</title>
+    <title>GithubProfile</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
-<link rel="stylesheet" href="style.css">
 
 <body>
-    <div class="form-body">
-        <form>
-            <div class="form-header">
+    <div class="main">
+        <div class="nav">
+            <h3 style="color:wheat">GIT HUB</h3>
+        </div>
+        <div class="leftbox">
+            <p>This is the left box content.</p>
+        </div>
+        <div class="searchbox">
+            <p style="color:darkgray;margin-left:20px">Search</p>
+        </div>
+        <div class="rightsubbox">This is the search box content.</div>
+        <div class="rightsubbox">This is the search box content.</div>
+        <div class="rightsubbox">This is the search box content.</div>
 
-                <p><label for="Name">Name<span class="required">*</span></label></p>
-                <input type="text" id="Name" name="Name" placeholder="Enter Name" required>
-                <label for="LastName"></label>
-                <input style="margin-left: 10px" type="text" id="LastName" name="LastName" placeholder="Enter Last Name"
-                    required>
-                <br>
-                <label Name="Name" style="font-size: 10px;">First</label>
-                <label Name="LastName" style="margin-left: 163px;font-size: 10px;">Last</label>
-
-                <div class="form-mail">
-                    <p><label Name="Email">Email<span class="required">*</span></label></p>
-                    <input type="text" id="Email" name="Email" size="48">
-                </div>
-                <div class="form-experience">
-                    <p><label for="Experience"><b>Your Experience </b><span class="required">*</span></label></p>
-                    <link rel="stylesheet"
-                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                </div>
-                <div class="form-h-labels">
-                    <label><b>How Satiesfied are you with <span class="required">*</span></b></label>
-                </div>
-
-                <div class="form-radio-table">
-                    <table>
-                        <tr>
-                            <th> </th>
-                            <th>Very Unsatisfied</th>
-                            <th>Unsatisfied</th>
-                            <th>Neutral</th>
-                            <th>Satisfied</th>
-                            <th>Very Satisfied</th>
-                        </tr>
-                        <tr>
-                            <td class="td1">Purchase</td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                        </tr>
-                        <tr>
-                            <td class="td1">Service</td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                        </tr>
-                        <tr>
-                            <td class="td1">Company Overall</td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                        </tr>
-                    </table>
-
-                </div>
-                <div class="form-h-labels">
-                    <label><b>How Likely are you to</b><span class="required">*</span></label>
-                </div>
-
-                <div class="form-radio-table">
-                    <table>
-                        <tr>
-                            <th> </th>
-                            <th>Very Unsatisfied</th>
-                            <th>Unsatisfied</th>
-                            <th>Neutral</th>
-                            <th>Satisfied</th>
-                            <th>Very Satisfied</th>
-                        </tr>
-                        <tr>
-                            <td class="td1">Buy from us again</td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                        </tr>
-                        <tr>
-                            <td class="td1">Recomend our product to others</td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                        </tr>
-                        <tr>
-                            <td class="td1">Recomend our company to others</td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                            <td><input type="radio" id='regular' name="optradio"></td>
-                        </tr>
-                    </table>
-                </div>
-
-            </div>
-            <div class="form-h-labels">
-                <label><b>Additional comments or suggestions</b></label>
-            </div>
-            <textarea id="comments" name="comments" rows="4" cols="100"></textarea>
-
-        </form>
-        <button type="submit" form="form" value="Submit">Submit</button>
+        <div class="rightbottombox">This is the bottom box content.</div>
     </div>
 </body>
 
