@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+.block{
+    display: block;
+    text-align: center;
+    margin:10px;
+    padding:10px;
+    width:70px;
+    height:20px;
+    background-color: brown;
+
+}
+
+.inline{
+    display: inline;
+    text-align: center;
+    margin:10px;
+    padding:10px;
+    /*width height wont work in inline*/
+    width:70px;
+    height:20px;
+    background-color: brown;
+}
+
+
+.inline-block{
+    display: block;
+    text-align: center;
+    margin:10px;
+    padding:10px;
+    width:70px;
+    height:20px;
+    background-color: brown;
+}
+</style>
+<body>
+    
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+<div id="group1">
+    <button class="btn btn-primary" type="button" onclick="alert('Hello World! group 1')">Click Me</button>
+</div>
+<div id="group2">
+    <button class="btn btn-primary" type="button" onclick="alert('Hello World! group 2')">Click Me</button>
+</div>
+<h1> DisplayBlock</h1>
+<span class="block">Home</span>
+<span class="block">About</span>
+<span class="block">Contact</span>
+
+<h1> inline-Block</h1>
+<span class="inline">Home</span>
+<span class="inline">About</span>
+<span class="inline">Contact</span>
+
+<h1> Display inline-Block</h1>
+<span class="inline-block">Home</span>
+<span class="inline-block">About</span>
+<span class="inline-block">Contact</span>
+</body>
+</html>
