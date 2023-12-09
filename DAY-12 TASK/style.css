@@ -1,23 +1,23 @@
-  #tamil{
-    padding: 35px;
-    background-color: gainsboro;
+  #tamil {
+      padding: 35px;
+      background-color: gainsboro;
   }
 
-  #malai{
-    padding: 35px;
-    background-color: ghostwhite;
+  #malai {
+      padding: 35px;
+      background-color: ghostwhite;
   }
 
-  #hindi{
-    padding: 35px;
-    background-color: gainsboro;
+  #hindi {
+      padding: 35px;
+      background-color: gainsboro;
   }
-  
-  h1{
-    text-align: center;
-    background-color: aliceblue;
+
+  h1 {
+      text-align: center;
+      background-color: aliceblue;
   }
 
   img {
-    margin-right: 25px;
+      margin-right: 25px;
   }
